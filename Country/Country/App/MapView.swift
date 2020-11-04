@@ -1,5 +1,5 @@
 //
-//  VideoListView.swift
+//  MapView.swift
 //  Country
 //
 //  Created by Julieth Angel on 11/3/20.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct VideoListView: View {
+struct MapView: View {
     var body: some View {
-        Text("Videos")
+        Text("Map")
     }
 }
 
-struct VideoListView_Previews: PreviewProvider {
+struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        VideoListView()
+        MapView()
     }
 }

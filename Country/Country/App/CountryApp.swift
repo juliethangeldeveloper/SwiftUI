@@ -11,7 +11,13 @@ import SwiftUI
 struct CountryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
+    }
+}
+
+struct CountryApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
